@@ -5,6 +5,7 @@
     align-items: center;
     background: linear-gradient(180deg, #1536a3 0%, #081d62 100%);
     padding: 2rem;
+    position: relative;
 }
 
 .footer > div {
@@ -40,6 +41,20 @@
     color: white;
     font-size: 1.5rem;
 
+}
+
+.footer > div:last-child > span {
+    font-size: 1.2rem;
+    position: absolute;
+    color: white;
+    right: 2rem;
+    font-family: "roundkey-extralight";
+    bottom: 1rem;
+}
+
+.footer > div:last-child > span > a {
+    font-family: "roundkey-regular";
+    border-bottom: 1px solid white;
 }
 
 @media (max-width: 768px) {
