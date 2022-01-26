@@ -1,0 +1,55 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.section h3 {
+    font-size: 2rem;
+}
+
+.section h4 {
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.section h3, .section h4 {
+    color: #081d62;
+}
+
+.section > div {
+    margin-top: 0.5rem;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 1.5rem;
+    max-width: 1080px;
+    position: relative;
+    width: 100%;
+}
+
+.section > div > p {
+    color: #848484;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    transition: height 0.5s linear;
+}
+
+.section > div > div > span {
+    position: absolute !important;
+    right: 1rem;
+    top: 1.5rem;
+    cursor: pointer !important;
+}
+
+.section > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .section h4 {
+        width: 90%;
+    }
+}

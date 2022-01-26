@@ -1,0 +1,109 @@
+.header > div{
+    width: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.section {
+    background-image: url("/images/1/fundo.jpg");
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section > form {
+    background-color: white;
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 1rem;
+    height: 550px;
+    margin-top: 100px;
+}
+
+.section > form > div {
+    height: 200px;
+    width: 300px;
+    margin-top: -150px;
+}
+
+.section > form > label {
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 1rem 0;
+    font-family: "roundkey-extralight";
+    position: relative;
+}
+
+.section > form > label > p {
+    margin-left: 10px;
+    top: -15px;
+    z-index: 1;
+    background-color: white;
+    color: #959595;
+    position: absolute;
+    padding: 0 0.5rem;
+}
+
+.section > form > label > input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #959595;
+    z-index: -1;
+}
+
+.section > form > button {
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(50, 50, 255) 0%, rgb(100, 100, 255) 100%);
+    border: none;
+    color: white;
+    font-size: 3rem;
+    font-family: "rounkey-medium";
+    font-style: italic;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: -5px 5px 10px rgb(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+    .section > form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section > form > div {
+        margin-top: -100px;
+    }
+
+    .section > form > label {
+        font-size: 1.2rem;
+    }
+
+    .section > form > label > input {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+
+    .section > form > button {
+        font-size: 2rem;
+    }
+}

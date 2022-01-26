@@ -1,0 +1,77 @@
+.session {
+    background-image: url("/images/2/fundo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 3rem 2rem;
+
+    display: flex;
+}
+
+.session > div > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.session > div > ul > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+.session > div > ul > li > p {
+    margin-left: 1rem;
+    color: #848484;
+}
+
+.session > div {
+    width: 100%;
+}
+
+.session > div:first-child {
+    width: 80%;
+}
+
+.session > div > h3 {
+    color: #081d62;
+    font-size: 3rem;
+    margin: 2rem 0 1rem;
+}
+
+.session > div > p {
+    color: #848484;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.session > div > p > b {
+    color: #295197;
+}
+
+@media (max-width: 768px) {
+    .session {
+        padding: 3rem 1rem;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .session > div > p {
+        font-size: 1.8rem;
+    }
+
+    .session > div > ul > li {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .session > div > p:last-child {
+        margin-bottom: 10rem;
+    }
+}

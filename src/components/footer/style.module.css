@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #1536a3 0%, #081d62 100%);
+    padding: 2rem;
+}
+
+.footer > div {
+    width: 50%;
+}
+
+.footer > div > h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.footer > div > button {
+    background-color: #5b6ca5;
+    border: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+    margin: 1rem 0;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.footer > div > button > svg {
+    font-size: 1.6rem;
+}
+
+.footer > div > p {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer > div {
+        width: 100%;
+        margin: 2rem;
+    }
+}
