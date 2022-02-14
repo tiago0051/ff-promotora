@@ -9,7 +9,7 @@ export default function FirstSession(){
             </header>
 
             <div className={style.section}>
-                <form action="https://paginas.rocks/capture" method="post">
+                <form action="https://paginas.rocks/pages/index/618743" method="post">
                     <input id="id" name="id" type="hidden" value="618743" />
                     <input id="mid" name="mid" type="hidden" value="618743" />
                     <input id="pid" name="pid" type="hidden" value="20547143" />
@@ -17,7 +17,7 @@ export default function FirstSession(){
                     <input id="provider" name="provider" type="hidden" value="leadlovers" />
 
                     <div>
-                    <Image src="/images/1/formulario.png" alt="É a sua vez, saque aniversário FGTTS" width={541} height={314} layout="responsive"/>
+                        <Image src="/images/1/formulario.png" alt="É a sua vez, saque aniversário FGTTS" width={541} height={314} layout="responsive"/>
                     </div>
 
                     <label>
@@ -27,7 +27,7 @@ export default function FirstSession(){
 
                     <label>
                         <p>Celular</p>
-                        <input id="phone" name="phone" type="text"/>
+                        <input id="phone" name="phone" type="tel"/>
                     </label>
                     
                     <label>
