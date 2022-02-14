@@ -58,6 +58,7 @@ export default class MyDocument extends Document {
 
           <Main/>
           <NextScript/>
+          <script src="https://paginas.rocks/scripts/capture/form/async-form-capture.js" async defer></script>
         </body>
       </Html>
     )
